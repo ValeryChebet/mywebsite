@@ -14,6 +14,7 @@ body {
     font-size: larger;
 }
 
+/* navigation section */
 .nav-container {
     display: flex;
     flex-direction: row;
@@ -55,7 +56,24 @@ body {
     padding-left: 25px;
     border-radius: 20px;
 }
+.nav a {
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover {
+    color: rgb(255, 217, 0);
+    border-bottom: 2px solid rgb(255, 217, 0);
 
+
+}
+
+
+a:active {
+    color: rgb(255, 217, 0);
+    border-bottom: 2px solid rgb(255, 217, 0);
+}
+
+/* subsription area */
 .subscribe {
     color: rgb(255, 217, 0);
     font-family: Helvetica;
@@ -77,6 +95,7 @@ body {
 
 }
 
+/* subscription details */
 .detail input {
     border-radius: 20px;
     border-color: darkgoldenrod;
@@ -109,27 +128,8 @@ body {
     padding-top: 70px;
 }
 
-.nav a {
-    text-decoration: none;
-    color: aliceblue;
 
-
-
-}
-
-a:hover {
-    color: rgb(255, 217, 0);
-    border-bottom: 2px solid rgb(255, 217, 0);
-
-
-}
-
-
-a:active {
-    color: rgb(255, 217, 0);
-    border-bottom: 2px solid rgb(255, 217, 0);
-}
-
+/* main page */
 .servdet {
     background-image: linear-gradient(rgba(255, 217, 0, 0.5), rgba(250, 152, 6, 0.5)), url("images/10.jpg");
     width: 100%;
@@ -265,7 +265,7 @@ a:active {
     width: 45%;
     padding-right: 100px;
 }
-
+/* blog section */
 .blog {
     background-color: rgb(30, 69, 75);
     height: 470px;
@@ -347,6 +347,7 @@ a:active {
     flex-direction: row;
     align-items: center;
 }
+/* about section */
 
 .about {
     display: flex;
@@ -369,7 +370,7 @@ a:active {
     padding-left: 200px;
     padding-right: 200px;
 }
-
+/* map and contact us */
 .mapcontactus {
     background-color: rgb(30, 69, 75);
     border-radius: 10px;
@@ -420,7 +421,7 @@ a:active {
     border-radius: 20px;
     background-color: rgb(255, 217, 0);
 }
-
+/* footer */
 footer {
     height: 300px;
     background-color: rgb(19, 18, 18);
@@ -447,7 +448,7 @@ footer {
     margin-bottom: 10px;
 
 }
-
+/* social media */
 .fa {
     padding: 20px;
     font-size: 0px;
